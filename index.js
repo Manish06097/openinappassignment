@@ -11,7 +11,7 @@ const swaggerUi = require('swagger-ui-express');
 app.use(express.json());
 
 // Connect to MongoDB (replace 'your-mongodb-uri' with your actual MongoDB URI)
-mongoose.connect('mongodb+srv://user:1234@cluster0.qhsrqqw.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('##MONGODB URL', { useNewUrlParser: true, useUnifiedTopology: true });
 const db = mongoose.connection;
 
 // Check for DB connection
